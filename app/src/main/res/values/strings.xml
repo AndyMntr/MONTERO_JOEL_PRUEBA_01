@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">KevinCaizaguano</string>
+    <string name="app_name">JoelMonteroPrueba01</string>
     <string name="txt_nombres">Nombre</string>
     <string name="txt_apellidos">Apellido</string>
-    <string name="txt_base">Base</string>
-    <string name="txt_exponente">Exponente</string>
-    <string name="txt_factorial">Factorial</string>
-    <string name="txt_potencia">Potencia</string>
+    <string name="txt_Dividendo">Dividendo</string>
+    <string name="txt_Divisor">Divisor</string>
+    <string name="txt_Entera">Entera</string>
+    <string name="txt_Residuo">Residuo</string>
     <string name="btn_siguiente">Siguiente</string>
     <string name="btn_mostrar_resultaos">Mostrar Resultados</string>
     <string name="btn_cerrar">Cerrar</string>
-    <string name="txt_numero">Numero factorial</string>
+
 </resources>
