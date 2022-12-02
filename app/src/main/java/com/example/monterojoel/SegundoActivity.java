@@ -27,13 +27,16 @@ public class SegundoActivity extends AppCompatActivity {
                         Bundle datos = result.getData().getExtras();
                         lstDatosRecibidos = datos.getStringArray("lstDatos");
                         editTextNombres.setText(lstDatosRecibidos[0].toString());
-                        editTextBase.setText(lstDatosRecibidos[2].toString());
+                        editTextApellidos.setText(lstDatosRecibidos[1].toString());
+                        editTextDividendo.setText(lstDatosRecibidos[2].toString());
+                        editTextDivisor.setText(lstDatosRecibidos[3].toString());
+                        editTextNumero.setText(lstDatosRecibidos[4].toString());
                         buttonCerrarS.setEnabled(true);
                     }
                 }
             });
 
-    EditText editTextNombres, editTextBase;
+    EditText editTextNombres, editTextApellidos, editTextDividendo, editTextDivisor, editTextNumero;
 
 
     @Override
@@ -41,7 +44,10 @@ public class SegundoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_segundo);
         editTextNombres = findViewById(R.id.editTextTextNombres);
-        editTextBase = findViewById(R.id.editTextTextDividendo);
+        editTextApellidos = findViewById(R.id.editTextTextApellidos);
+        editTextDividendo = findViewById(R.id.editTextTextDivisor);
+        editTextDivisor = findViewById(R.id.editTextTextDivisor);
+        editTextNumero = findViewById(R.id.editTextTextInvertido);
         buttonCerrarS = findViewById(R.id.buttonCerrarSegundo);
     }
 

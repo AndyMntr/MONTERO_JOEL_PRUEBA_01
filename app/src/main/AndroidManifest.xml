@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Monterojoel"
         tools:targetApi="31">
         <activity
+            android:name=".TercerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SegundoActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
