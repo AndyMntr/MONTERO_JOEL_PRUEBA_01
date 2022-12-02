@@ -69,9 +69,13 @@ public class MainActivity extends AppCompatActivity {
 
     public  void  mostrarDatos (View view){
 
+        String dividendo = lstDatosRecibidos[2].toString();
+        String divisor = lstDatosRecibidos[3].toString();
+
         int dividend=  Integer.valueOf(lstDatosRecibidos[2].toString());
         int divisr = Integer.valueOf(lstDatosRecibidos[3].toString());
-        int invertid = Integer.valueOf((lstDatosRecibidos[6].toString()));
+        int invertid = Integer.valueOf((lstDatosRecibidos[4].toString()));
+
 
         editTextEntera.setText(String.valueOf(divisionEntera(dividend,divisr)));
         editTextResiduo.setText(String.valueOf(divisionDecimal(dividend,divisr)));

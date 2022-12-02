@@ -45,7 +45,7 @@ public class SegundoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_segundo);
         editTextNombres = findViewById(R.id.editTextTextNombres);
         editTextApellidos = findViewById(R.id.editTextTextApellidos);
-        editTextDividendo = findViewById(R.id.editTextTextDivisor);
+        editTextDividendo = findViewById(R.id.editTextTextDividendo);
         editTextDivisor = findViewById(R.id.editTextTextDivisor);
         editTextNumero = findViewById(R.id.editTextTextInvertido);
         buttonCerrarS = findViewById(R.id.buttonCerrarSegundo);
