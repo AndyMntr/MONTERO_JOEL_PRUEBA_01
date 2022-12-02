@@ -9,5 +9,6 @@
     <string name="btn_siguiente">Siguiente</string>
     <string name="btn_mostrar_resultaos">Mostrar Resultados</string>
     <string name="btn_cerrar">Cerrar</string>
-
+    <string name="txt_Invertido">Invertido</string>
+    <string name="txt_Numero">Número</string>
 </resources>
